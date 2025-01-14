@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-dark">
+    <div class="position-absolute top-50 start-50 translate-middle row gap-2 border border-secondary border-opacity-50 rounded px-2 py-4 bg-light"
+        style="width:30%;">
+        <div class="d-flex justify-content-between align-items-center">
+            <h4>Task</h4>
+            <h4>Action</h4>
+        </div>
+        <hr>
+        <div id="task-container" class="col-12 d-flex flex-column overflow-y-scroll gap-3" style="max-height: 60svh;">
+            <!-- <div class="d-flex align-items-center justify-content-between">
+                <span>Sleep</span>
+                <div>
+                    <button class="btn btn-danger">Delete</button>
+                </div>
+            </div>
+            <hr> -->
+
+        </div>
+        <hr>
+        <div class="d-flex gap-2">
+            <input id="task-input" class="form-control shadow" placeholder="Enter your task here...">
+            <button class="btn btn-success shadow" onclick="SubmitClick()">Submit</button>
+        </div>
+    </div>
+</body>
+<script src="todolist.js"></script>
+
+</html>
