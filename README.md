@@ -1,4 +1,4 @@
 # TodoList_-Js
 
-It can add List what you wanna do....⏰
+You can add List what you wanna do....⏰
 When you wanna delete each list, you can use delete button...
